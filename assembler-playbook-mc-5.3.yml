@@ -2,14 +2,14 @@ site:
   title: Documentation
   url: https:/docs.hazelcast.com
 content:
-  sources: 
+  sources:
   - url: https://github.com/hazelcast/management-center-docs
     branches: [v/5.3]
     start_path: docs
 antora:
   extensions:
   - '@antora/pdf-extension'
-ui: 
+ui:
   bundle:
     url: https://github.com/hazelcast/hazelcast-docs-ui/releases/latest/download/ui-bundle.zip #../hazelcast-docs-ui/build/ui-bundle.zip
     snapshot: true
@@ -27,4 +27,3 @@ asciidoc:
   extensions:
     - ./lib/tabs-block.js
     - ./lib/swagger-ui-block-macro.js
-    - asciidoctor-kroki
