@@ -9,7 +9,7 @@ env:
   GITHUB_BASE_REF: ${{ github.ref_name }}
 
 jobs:
-  test-external-links:
+  validate-docs:
     runs-on: ubuntu-latest
 
     steps:
